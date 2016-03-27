@@ -9,10 +9,10 @@
 
 
 # 工具及资源
- 开发工具：选择一个开发工具，比如sublime Text、Web Storm等编辑器。
- 主流的浏览器 firefox，chrome
- 调试工具：Chrome Developer Tools，firebug等
- 提交代码：github,git
- 其他工具在您需要的时候可以自行搜索
- 书籍：可以参考知乎上的整理
- 网上资源：可以参考Quora上的整理以及知乎上的整理
+- 开发工具：选择一个开发工具，比如sublime Text、Web Storm等编辑器。
+- 主流的浏览器 firefox，chrome
+- 调试工具：Chrome Developer Tools，firebug等
+- 提交代码：github,git
+- 其他工具在您需要的时候可以自行搜索
+- 书籍：可以参考知乎上的整理
+- 网上资源：可以参考Quora上的整理以及知乎上的整理
