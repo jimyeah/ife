@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/*!
+ * 百度前端技术学院2016春训班
+ * @Author http://www.iyejing.cn.
+ * @Copyright 2016
+ */
+body {
+  margin: 0;
+  padding: 0
+}
+.flex_container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -moz-box-orient: horizontal;
+  -moz-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 20px
+}
+.flex_container .flex {
+  width: 150px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 150px;
+  -moz-box-flex: 0;
+  -ms-flex: 0 0 150px;
+  flex: 0 0 150px;
+  border: 1px solid red;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 20px
+}
+.flex_container .f1 {
+  height: 120px;
+  line-height: 120px
+}
+.flex_container .f2 {
+  height: 100px;
+  line-height: 100px
+}
+.flex_container .f3 {
+  height: 40px;
+  line-height: 40px
+}
+.flex_container .f4 {
+  height: 200px;
+  line-height: 200px;
+  border: 1px solid blue
+}
+@media screen and (max-width:640px) {
+  .flex_container {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    -ms-grid-row-align: flex-start;
+    align-items: flex-start
+  }
+  .flex_container .f4 {
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -moz-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1
+  }
+}
